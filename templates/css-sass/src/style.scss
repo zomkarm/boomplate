@@ -1,0 +1,28 @@
+// ── Variables ──────────────────────────────────
+$primary:   #4f46e5;
+$text:      #1a1a1a;
+$bg:        #fafafa;
+$radius:    6px;
+
+// ── Mixins ─────────────────────────────────────
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// ── Reset ──────────────────────────────────────
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+// ── Base ───────────────────────────────────────
+body {
+  font-family: system-ui, sans-serif;
+  background: $bg;
+  color: $text;
+  padding: 2rem;
+
+  h1 {
+    color: $primary;
+    margin-bottom: 0.5rem;
+  }
+}

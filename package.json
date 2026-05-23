@@ -1,0 +1,21 @@
+{
+  "name": "boomplate",
+  "version": "1.0.0",
+  "description": "Instant dev scaffolding CLI — stop wasting time on boilerplate",
+  "bin": {
+    "boomplate": "./bin/boomplate.js"
+  },
+  "scripts": {
+    "start": "node bin/devkit.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1",
+    "fs-extra": "^11.2.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
